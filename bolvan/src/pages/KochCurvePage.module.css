@@ -1,0 +1,6 @@
+.scene-options-container {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  height: 100%;
+  grid-column-gap: 20px;
+}

@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  background-color: #e1e1e1;
+}
+
+#root {
+  height: 100vh;
+  position: relative;
+}

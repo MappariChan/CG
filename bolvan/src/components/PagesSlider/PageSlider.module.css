@@ -1,0 +1,17 @@
+.page-slider {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+.animation-object {
+  z-index: -1;
+  position: absolute;
+  inset-block: 0;
+  width: 350px;
+  transition: left 500ms;
+  background-color: white;
+}

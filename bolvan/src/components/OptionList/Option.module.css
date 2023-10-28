@@ -1,0 +1,44 @@
+.option[type="range"] {
+  /* Set the track height and color */
+  height: 8px;
+  border-radius: 5px;
+  background-color: white;
+
+  /* Remove default styling */
+  border: none;
+  outline: none;
+
+  /* Remove default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
+/* Style the track */
+.option[type="range"]::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.5px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}

@@ -1,0 +1,16 @@
+.fractal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.animation-object {
+  position: absolute;
+  inset-inline: 0;
+  background-color: white;
+  z-index: -1;
+  transition: top 500ms;
+}
