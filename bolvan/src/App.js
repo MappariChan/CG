@@ -6,6 +6,7 @@ import FractalLayout from "./layouts/FractalLayout";
 import MandelbrotPage from "./pages/MandelbrotPage";
 import KochCurvePage from "./pages/KochCurvePage";
 import MinkowskiIslandPage from "./pages/MinkowskiIslandPage";
+import ColorSchemesPage from "./pages/ColorSchemesPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +24,7 @@ function App() {
             { path: "minkowski_island", element: <MinkowskiIslandPage /> },
           ],
         },
+        { path: "color-schemes", element: <ColorSchemesPage /> },
       ],
     },
   ]);
